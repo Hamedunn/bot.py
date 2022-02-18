@@ -8,7 +8,7 @@ target = "g0B2OdK02cde2ac53eaf293172698adb"
 answered = [bot.getGroupAdmins]
 retries = {}
 sleeped = False
-# delmess = ["دولی","کصکش","کون","کص","کیر" ,"خر","کستی","دول","گو","کس","کسکش","کوبص"]
+# delmess = ["دولی","کصکش","کون","@","https","کص","کیر" ,"خر","کستی","دول","گو","کس","کسکش","کوبص"]
 plus= True
 
 while True:
@@ -185,7 +185,7 @@ while True:
 						bot.sendMessage(target, "مرگِ ها 😐", message_id=msg.get("message_id"))
 
 					elif msg.get("text") == "بای":
-						bot.sendMessage(target, "فردا بخور های بای", message_id=msg.get("message_id"))
+						bot.sendMessage(target, "به درک گمشو", message_id=msg.get("message_id"))
 
 					elif msg.get("text") == "اها":
 						bot.sendMessage(target, "خوبه فهمیدی داشتم نا امید میشدم😏", message_id=msg.get("message_id"))
@@ -194,10 +194,10 @@ while True:
 						bot.sendMessage(target, "ادبت کو گوساله🗿", message_id=msg.get("message_id"))
 
 					elif msg.get("text") == "چطوری":
-						bot.sendMessage(target, "متوری", message_id=msg.get("message_id"))
+						bot.sendMessage(target, "تخمی بر", message_id=msg.get("message_id"))
 
-					elif msg.get("text") == "سجاد":
-						bot.sendMessage(target, "با سازنده پسر عموم چیکار داری", message_id=msg.get("message_id"))
+					elif msg.get("text") == "حامد":
+						bot.sendMessage(target, "شوهرتو صدا نکن", message_id=msg.get("message_id"))
 
 					elif msg.get("text") == "معلون":
 						bot.sendMessage(target, "تو معلولی🗿", message_id=msg.get("message_id"))
@@ -247,11 +247,11 @@ while True:
 					elif msg.get("text") == "الو":
 						bot.sendMessage(target, "اَی خِداااااا چته چکارم داری نمیزاری بخوابم", message_id=msg.get("message_id"))
 
-					elif msg.get("text") == "سینا":
-						bot.sendMessage(target, "بابا بیا این کارت داره", message_id=msg.get("message_id"))
+					elif msg.get("text") == "سم":
+						bot.sendMessage(target, "سم ننته", message_id=msg.get("message_id"))
 
 					elif msg.get("text") == "اصل ":
-						bot.sendMessage(target, "🗿", message_id=msg.get("message_id"))
+						bot.sendMessage(target, "ننت", message_id=msg.get("message_id"))
 
 					elif msg.get("text") == "والا":
 						bot.sendMessage(target, "بمولا", message_id=msg.get("message_id"))
@@ -268,11 +268,11 @@ while True:
 					elif msg.get("text") == "نوب":
 						bot.sendMessage(target, "میدونی چیه ؟", message_id=msg.get("message_id"))
 
-					elif msg.get("text") == "شایان":
-						bot.sendMessage(target, "چیکارش داری💔", message_id=msg.get("message_id"))
+					elif msg.get("text") == "شب بخیر":
+						bot.sendMessage(target, "شبت بخیر برار", message_id=msg.get("message_id"))
 
-					elif msg.get("text") == "سید هوشمند":
-						bot.sendMessage(target, "اسم شوهرمو به زبونت نیار 🗿", message_id=msg.get("message_id"))
+					elif msg.get("text") == "هعی":
+						bot.sendMessage(target, "مرض", message_id=msg.get("message_id"))
 
 					elif msg.get("text") == "خش":
 						bot.sendMessage(target, "الحمدالله", message_id=msg.get("message_id"))
